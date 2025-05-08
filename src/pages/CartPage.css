@@ -1,0 +1,19 @@
+.cart-page h1 {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  .checkout-button {
+    display: block;
+    margin: 20px auto 0 auto;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+  .checkout-button:hover {
+    background: #27ae60;
+  }
+  

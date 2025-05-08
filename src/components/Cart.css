@@ -1,0 +1,25 @@
+.cart {
+    background: white;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  }
+  .cart-summary {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    text-align: right;
+  }
+  .empty-cart {
+    text-align: center;
+    padding: 40px;
+    background: white;
+    border-radius: 8px;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 600px) {
+    .cart {
+      padding: 10px;
+    }
+  }
+  
