@@ -1,0 +1,43 @@
+.payment-form {
+  background: #fff;
+  padding: 2.5rem 1.5rem;
+  max-width: 400px;
+  margin: 2.5rem auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(34,34,59,0.11);
+  text-align: center;
+}
+.payment-form h2 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #22223b;
+}
+.order-summary {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+.payment-button {
+  background: #4a4e69;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+.payment-button:hover {
+  background: #22223b;
+}
+.payment-success {
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.1);
+}
+.payment-success h2 {
+  color: #4a4e69;
+  margin-bottom: 20px;
+}

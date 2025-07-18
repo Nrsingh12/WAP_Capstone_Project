@@ -1,0 +1,23 @@
+.cart {
+  background: #fff;
+  padding: 2rem 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 14px rgba(34,34,59,0.07);
+  margin-bottom: 2rem;
+}
+.cart-summary {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-top: 18px;
+  text-align: right;
+  color: #22223b;
+}
+.empty-cart {
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  color: #9a8c98;
+  box-shadow: 0 2px 8px rgba(34,34,59,0.07);
+}
