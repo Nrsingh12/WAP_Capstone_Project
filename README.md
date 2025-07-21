@@ -38,24 +38,24 @@ Try the application live with all features including product browsing, cart mana
 
 ```
 src/
-├── components/     # Reusable components + their styles
-│   ├── Navbar     # Navigation component
-│   ├── ProductList# Product display and filtering
-│   ├── ProductCard# Individual product display
-│   ├── Cart       # Shopping cart management
-│   ├── CartItem   # Individual cart item
-│   ├── PaymentForm# Payment form
-│   └── Footer     # Footer component
-├── pages/          # Route page components
-│   ├── Home       # Main landing page
-│   ├── CartPage   # Cart management page
-│   ├── ProfilePage# User profile management
-│   ├── AuthPage   # Combined login/register
-│   └── PaymentPage# Payment processing
-├── App.js          # Main app with routing
-├── index.js        # App entry point
-├── App.css         # Global styles
-└── index.css       # Base styles
+├── components/      # Reusable components + their styles
+│   ├── Navbar       # Navigation component
+│   ├── ProductList  # Product display and filtering
+│   ├── ProductCard  # Individual product display
+│   ├── Cart         # Shopping cart management
+│   ├── CartItem     # Individual cart item
+│   ├── PaymentForm  # Payment form
+│   └── Footer       # Footer component
+├── pages/           # Route page components
+│   ├── Home         # Main landing page
+│   ├── CartPage     # Cart management page
+│   ├── ProfilePage  # User profile management
+│   ├── AuthPage     # Combined login/register
+│   └── PaymentPage  # Payment processing
+├── App.js           # Main app with routing
+├── index.js         # App entry point
+├── App.css          # Global styles
+└── index.css        # Base styles
 ```
 
 ## 🚀 Getting Started
