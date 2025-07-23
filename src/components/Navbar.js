@@ -14,7 +14,7 @@ function Navbar({ cart }) {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="navbar-brand">🛒 ShopCart</Link>
+      <Link to="/" className="navbar-brand">🛒 ShopKaro</Link>
       <div className="navbar-links">
         <Link to="/" className="nav-link">Home</Link>
         <Link to="/cart" className="nav-link">
