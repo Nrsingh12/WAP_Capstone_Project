@@ -21,7 +21,7 @@ A modern, minimalist React.js shopping cart application featuring product browsi
 
 ## 🎮 Demo
 
-Live Demo: [https://wap-capstone-project.vercel.app](https://wap-capstone-project.vercel.app)
+Live Demo: [https://wap-capstone-project-devbynishant.vercel.app/](https://wap-capstone-project-devbynishant.vercel.app/)
 
 Try the application live with all features including product browsing, cart management, and Google authentication.
 
