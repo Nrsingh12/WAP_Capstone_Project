@@ -9,7 +9,7 @@ function Navbar({ cart }) {
 
   const handleLogout = () => {
     localStorage.removeItem('user');
-    navigate('/login');
+    navigate('/auth');
   };
 
   return (
@@ -22,14 +22,11 @@ function Navbar({ cart }) {
         </Link>
         {user ? (
           <>
-            <span className="nav-user">Hi, {user.name.split(' ')[0]}</span>
+            <Link to="/profile" className="nav-user">Hi, {user.name.split(' ')[0]}</Link>
             <button className="nav-link nav-logout" onClick={handleLogout}>Logout</button>
           </>
         ) : (
-          <>
-            <Link to="/login" className="nav-link">Login</Link>
-            <Link to="/register" className="nav-link">Register</Link>
-          </>
+          <Link to="/auth" className="nav-link">Authentication</Link>
         )}
       </div>
     </nav>

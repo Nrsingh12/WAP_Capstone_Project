@@ -4,16 +4,16 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import CartPage from './pages/CartPage';
-import LoginPage from './pages/LoginPage';
-import RegisterPage from './pages/RegisterPage';
-import PaymentPage from './pages/PaymentPage';
+import AuthenticationPage from './pages/AuthenticationPage';
+import CheckoutPage from './pages/CheckoutPage';
+import UserProfile from './pages/UserProfile';
 import './App.css';
 
 function RequireAuth({ children }) {
   const user = JSON.parse(localStorage.getItem('user'));
   const location = useLocation();
   if (!user) {
-    return <Navigate to="/login" state={{ from: location }} replace />;
+    return <Navigate to="/auth" state={{ from: location }} replace />;
   }
   return children;
 }
@@ -34,8 +34,8 @@ function App() {
         <Navbar cart={cart} />
         <div className="main-content">
           <Routes>
-            <Route path="/login" element={<LoginPage />} />
-            <Route path="/register" element={<RegisterPage />} />
+            <Route path="/auth" element={<AuthenticationPage />} />
+            <Route path="/profile" element={<UserProfile />} />
             <Route
               path="/"
               element={
@@ -53,10 +53,10 @@ function App() {
               }
             />
             <Route
-              path="/payment"
+              path="/checkout"
               element={
                 <RequireAuth>
-                  <PaymentPage cart={cart} setCart={setCart} />
+                  <CheckoutPage cart={cart} setCart={setCart} />
                 </RequireAuth>
               }
             />

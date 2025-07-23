@@ -17,7 +17,7 @@ function CartPage({ cart, setCart }) {
       navigate('/login', { state: { from: { pathname: '/payment' } } });
       return;
     }
-    navigate('/payment');
+    navigate('/checkout');
   };
 
   return (

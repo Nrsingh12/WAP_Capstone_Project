@@ -31,6 +31,41 @@
 .payment-button:hover {
   background: #22223b;
 }
+
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.payment-methods label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  background: #f2e9e4;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.payment-methods label:hover {
+  background: #e9d8bd;
+  transform: translateY(-2px);
+}
+
+.payment-methods input[type="radio"] {
+  width: 1.2rem;
+  height: 1.2rem;
+  accent-color: #4a4e69;
+}
+
+.payment-methods span {
+  font-size: 1rem;
+  color: #22223b;
+  font-weight: 500;
+}
 .payment-success {
   padding: 40px;
   background: #fff;

@@ -1,6 +1,6 @@
 import React from 'react';
 import PaymentForm from '../components/PaymentForm';
-import './PaymentPage.css';
+import './CheckoutPage.css';
 
 function PaymentPage({ cart, setCart }) {
   return (
